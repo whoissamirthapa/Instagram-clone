@@ -1,0 +1,88 @@
+nav{
+    position: sticky;
+    top: 0;
+}
+.cotainer_nav{
+    display: grid;
+    grid-template-columns: auto 30rem;
+    grid-gap: 2rem;
+}
+@media screen and (min-width: 1024px) {
+    .cotainer_nav{
+        width: 100rem;
+    }
+}
+.logo{
+    width: 15rem;
+    padding-top: 0.8rem;
+}
+.logo > img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.input_nav_cotainer{
+    width: calc(100% - 300px);
+}
+
+.nav_search{
+    width: calc(100%);
+    border: none;
+    outline: none;
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    background-color: #f3f3f3;
+    border-radius: 0.5rem;
+}
+.nav_search::placeholder{
+    font-size: 1.5rem;
+}
+.ind_icon_cont{
+    padding-top: 1rem;
+}
+.toolTipHandler{
+    position: absolute;
+    top: 4.5rem;
+    left: -10rem;
+    width: 15rem;
+    background-color: #f3f3f3;
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+.toolTipHandler > button{
+    width: 100%;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.toolTipHandler > button:last-child{
+    border-top: 0.1rem solid rgba(153, 153, 153, 0.568);
+}
+@media screen and (max-width: 1240px) {
+    .input_nav_cotainer{
+        width: calc(100% - 100px);
+    }
+}
+@media screen and (max-width: 1024px) {
+    .input_nav_cotainer{
+        width: calc(100% -  300px);
+    }
+}
+@media screen and (max-width: 760px) {
+    .input_nav_cotainer{
+        width: calc(100% - 120px);
+    }
+}
+@media screen and (max-width: 465px) {
+    .logo{
+        width: 10rem;
+    }
+    .input_nav_cotainer{
+        display: none;
+    }
+    .cotainer_nav{
+        grid-gap: 0;
+    }
+}

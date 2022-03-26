@@ -1,0 +1,32 @@
+.overlay_container{
+    position: fixed;
+    top:0rem;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    width: 60rem;
+    max-width: 90%;
+    min-height: 10rem;
+    background-color: white;
+    padding: 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.closeModal{
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: red;
+}
+.closeModal_container{
+    text-align: right;
+    margin-top: -0.8rem;
+}

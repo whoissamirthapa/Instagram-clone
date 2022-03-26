@@ -1,0 +1,122 @@
+.post_main_container{
+    display: grid;
+    grid-template-columns: auto 30rem;
+    grid-gap: 2rem;
+    overflow: hidden;
+}
+.post_container{
+    min-height: 30rem;
+    margin-bottom: 5rem;
+}
+.post_header_container{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+}
+.opt_icon{
+    width: 3rem;
+}
+.img_username{
+    display: flex;
+    justify-content: space-between;
+}
+.img_head{
+    width: 45px;
+}
+.username_head{
+    font-size: 1.5rem;
+}
+.post_image{
+    overflow-x: hidden;
+}
+.post_image > img{
+    max-width: 100%;
+    height: auto;
+    width: 100rem;
+}
+.post_desc{
+    font-size: 1.5rem;
+}
+.post_comment{
+    font-size: 1.5rem;
+}
+.comment_form{
+    display: flex;
+    justify-content: space-between;
+}
+.comment_input{
+    height: 2rem;
+    outline: none;
+    padding: 0.5rem;
+}
+.comment_btn{
+    color: blue;
+    padding-top: 0.7rem;
+}
+.switch_account{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.swi_img_name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.swi_name{
+    color: #999;
+}
+.swi_btn{
+    width: 4rem;
+    font-size: 1.2rem;
+    color: rgb(38, 132, 240);
+    font-weight: bold;
+    padding-top: 1.2rem;
+}
+.swi_img{
+    width: 7rem;
+}
+.suggested_acc{
+    font-size: 1.3rem;
+}
+.suggestion_title{
+    font-size: 1.4rem;
+    color: #999;
+}
+.sugg_acc_header{
+    display: flex;
+    justify-content: space-between; 
+}
+.sugg_follow_btn{
+    width: 5rem;
+    text-align: right;
+    color: rgb(86, 155, 245);
+    padding-top: 1rem;
+}
+.suggested_acc_indv{
+    display: flex;
+    justify-content: space-between;
+}
+.sugg_img_name{
+    display: flex;
+    justify-content: space-between;
+}
+.sugg_img{
+    width: 5rem;
+}
+.aside_footer{
+    font-weight: bold;
+    color: rgba(153, 153, 153, 0.849);
+}
+
+@media screen and (max-width: 1000px) {
+    .info_container{
+        display: none;
+    }
+    .post_main_container{
+        display: block;
+        max-width: 98%;
+        width: 60rem;
+        margin: 2rem auto;
+    }
+}

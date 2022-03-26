@@ -1,0 +1,28 @@
+.story_cotainer{
+    height: 12rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    max-width: 68rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+}
+.story_cotainer::-webkit-scrollbar {
+    display: none;
+}
+.story_here{
+  margin-right: 1.5rem;
+  height: 7rem;
+  width: 7rem;
+}
+.story_img{
+    height: 7rem;
+    width: 7rem;
+}
+.story_imag_m{
+    height: 7rem;
+    width: 7rem;
+    border: 0.3rem solid rgba(156, 41, 41, 0.774);
+}

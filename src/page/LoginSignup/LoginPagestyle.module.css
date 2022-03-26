@@ -48,10 +48,7 @@
     font-size: 1.2rem;
     outline: none;
 }
-.first_login_input > input::placeholder,
-.second_login_input_pw > input:placeholder{
-    font-size: 2rem;
-}
+
 .signin_btn{
     width: 80%;
     margin: 1.5rem auto;
